@@ -1,0 +1,107 @@
+/*.fancy-table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 2px solid #4CAF50;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.fancy-table th,
+.fancy-table td {
+    border: 1px solid #4CAF50;
+    padding: 8px 12px;
+    text-align: left;
+}
+
+.fancy-table th {
+    background-color: #e8f5e9;
+    font-weight: bold;
+}
+
+.fancy-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}*/
+
+/* Caption */
+.schedule-header-caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #c8e6c9;
+    border: 2px solid #4caf50;
+    border-bottom: none;
+    text-align: center;
+}
+/* Базове оформлення таблиці */
+.fancy-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid #5c4caf;
+    border-radius: 10px;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.fancy-table td {
+  vertical-align: top;
+}
+
+/* Заголовок */
+.schedule-header {
+    background-color: #e8f5e9;
+}
+
+/* Заголовок рядків */
+.schedule-header-row th {
+    border: 1px solid #81c784;
+    padding: 10px;
+}
+
+/* Тіло таблиці */
+.schedule-row td {
+    border: 1px solid #c8e6c9;
+    padding: 8px 12px;
+}
+
+/* Структурні псевдокласи */
+.schedule-row td:first-child {
+    font-weight: bold;
+    background-color: #f1f8e9;
+}
+
+.schedule-row td:last-child {
+    font-style: italic;
+}
+
+.schedule-row:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.schedule-row:nth-of-type(4n) {
+    background-color: #eee4fc;
+}
+
+.schedule-row td:not(:first-child):not(:last-child) {
+    text-align: center;
+}
+
+/* Станові псевдокласи */
+.schedule-row:hover {
+    background-color: #c6c0f0;
+}
+
+.schedule-row:active {
+    background-color: #a5d6a7;
+}
+
+.schedule-row td:focus {
+    outline: 2px solid #1976d2;
+}
+
+a:visited {
+    color: #6a1b9a;
+}
+
+button:disabled {
+    background-color: #ccc;
+}
