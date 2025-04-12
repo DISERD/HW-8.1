@@ -35,11 +35,9 @@
 .fancy-table {
     width: 100%;
     border-collapse: collapse;
-    border: 3px solid #5c4caf;
+    border: 2px solid #4caf50;
     border-radius: 10px;
-    overflow: hidden;
     font-family: 'Poppins', sans-serif;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
 .fancy-table td {
@@ -91,7 +89,7 @@
 }
 
 .schedule-row:active {
-    background-color: #a5d6a7;
+    background-color: #b5d6a5;
 }
 
 .schedule-row td:focus {
